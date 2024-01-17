@@ -52,7 +52,7 @@ header p {
 .options {
     margin-top: 20px;
     display: flex;
-    flex-direction:row; 
+    flex-direction:row;
 }
 
 .options button {
@@ -62,12 +62,13 @@ header p {
     background-color:coral; 
     color:black; 
     border: none;
-    border-radius: 10px; /* Untuk sudut yang lebih lembut */
-    transition: background-color 0.3s; /* Efek transisi untuk perubahan warna */
+    border-radius: 10px; 
+    transition: background-color 0.3s; /
 }
 
 .options button:active {
     background-color:brown; 
+}
 
 .luas-persegi {
     background-color: brown;
