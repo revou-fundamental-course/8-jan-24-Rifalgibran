@@ -52,29 +52,28 @@ header p {
 .options {
     margin-top: 20px;
     display: flex;
-    flex-direction:row; /* Mengatur orientasi menjadi baris (horizontal) */
+    flex-direction:row; 
 }
 
 .options button {
     padding: 10px;
     margin: 5px;
     cursor: pointer;
-    background-color:coral; /* Warna hijau sebagai contoh, ganti dengan warna sesuai preferensi Anda */
-    color:black; /* Warna teks putih untuk kontras dengan latar belakang */
+    background-color:coral; 
+    color:black; 
     border: none;
     border-radius: 10px; /* Untuk sudut yang lebih lembut */
     transition: background-color 0.3s; /* Efek transisi untuk perubahan warna */
 }
 
 .options button:active {
-    background-color:brown; /* Warna yang berbeda saat tombol ditekan */
-}
+    background-color:brown; 
 
 .luas-persegi {
     background-color: brown;
     padding: 10px;
     margin-top: 20px;
-    width: 100%; /* Agar background menutupi seluruh lebar layar */
+    width: 100%; 
 }
 
 .luas-persegi .big-text {
@@ -89,8 +88,8 @@ header p {
     margin-bottom: 10px;
 }
 .rumus-text {
-    color: #333; /* Warna teks sesuai preferensi Anda */
-    font-size: 16px; /* Ukuran font sesuai preferensi Anda */
+    color: #333; 
+    font-size: 16px; 
     margin-top: 5px; }
 
     .Keliling-Persegi {
