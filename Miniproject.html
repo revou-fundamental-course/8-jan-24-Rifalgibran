@@ -1,2 +1,97 @@
 <!-- tester-->
 <!--Ada perubahan-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/java.js"></script>
+    
+    <title>CalcMatic</title>
+</head>
+<body>
+    <header>
+        <div class="Logo">
+            <img src="logo gibran.jpg" alt="CalcMatic Logo">
+        
+        </div>
+
+        <div class="header-content">
+        <h1>CalcMatic: Kalkulator Matematika Cerdas</h1>
+        <h2>Welcome To CalcMatic</h2>
+        <p>Web ini digunakan untuk menyelesaikan perhitungan Persegi </p>
+        </div>
+
+        <div class="options">
+            <button id="btnPersegi" onclick="calculateArea('persegi')">Hitung Luas Persegi</button>
+            <button id="btnKeliling lingkaran" onclick="calculateArea('keliling lingkaran')">Hitung Keliling lingkaran</button>
+        </div>
+
+        <div class="luas-persegi">
+            <p class="big-text">Luas Persegi</p>
+        </div>
+
+        <div class="Persegi">
+            <img src="persegi.png" alt=" Persegi">
+        </div>
+
+        <div class="Rumus-Luas-Persegi">
+            <p class="big-text">Rumus Luas Persegi</p>
+            <p class="rumus-text">Rumus: s x s (sisi dikali sisi)</p>
+        </div>
+         
+        <div class="panel-footer">
+            <h3>Hitung Luas Persegi</h3>
+            <form id="luas-persegi" onsubmit="calculateArea(); return false;">
+                <input class="form-control" id="sisi" name="sisi" onblur="extractNumber(this, 3, true);" onkeyup="extractNumber(this, 3, true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Nilai Sisi" type="text" required />
+                <div id="result-luas-persegi" class="text-left" style="display:none;"></div>
+                <button type="submit" class="btn btn-lg">Hitung</button>
+                <p class="text-right">
+                    <button type="button" class="btn btn-warning" onclick="resetLuasPersegiForm();">Reset</button>
+                </p>
+            </form>
+        </div>
+
+        <div class="Keliling-Persegi">
+            <p class="big-text">Keliling Persegi</p>
+        </div>
+
+        <div class="Persegi">
+            <img src="persegi.png" alt=" Persegi">
+        </div>
+        <div class="Rumus-Luas-Persegi">
+            <p class="big-text">Rumus Keliling Persegi</p>
+            <p class="rumus-text">Rumus: 4 x s (4 dikali sisi)</p>
+        </div>
+
+        <!-- ... (bagian HTML lainnya) ... -->
+
+    <div class="panel-footer">  
+         <h3>Hitung Keliling Persegi</h3>
+    <form id="keliling-persegi-form" onsubmit="calculateKeliling(); return false;">
+        <input class="form-control" id="sisi-keliling" name="sisi" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Nilai Sisi" type="text" required />
+        <div id="result-keliling-persegi" class="text-left" style="display:none;"></div>
+        <button type="submit" class="btn btn-lg">Hitung</button>
+        <p class="text-right">
+            <button type="button" class="btn btn-warning" onclick="resetKelilingPersegiForm();">Reset</button>
+        </p>
+    </form>
+</div>
+
+<!-- ... (bagian HTML lainnya) ... -->
+
+     
+    </header>
+    
+       
+    
+    
+</body>
+<style>
+    h2:hover{
+        background-color:brown
+    }
+
+</style>
+</html>

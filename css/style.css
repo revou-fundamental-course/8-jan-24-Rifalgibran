@@ -1,0 +1,107 @@
+header {
+    background-color: #fff; /* Set to white */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+    color:black;
+}
+
+.header-content h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.header-content h2 {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.header-content p {
+    margin-top: 5px;
+    color: #777;
+}
+
+.options {
+    margin-top: 20px;
+    display: flex;
+    flex-direction:row; /* Mengatur orientasi menjadi baris (horizontal) */
+}
+
+.options button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color:coral; /* Warna hijau sebagai contoh, ganti dengan warna sesuai preferensi Anda */
+    color:black; /* Warna teks putih untuk kontras dengan latar belakang */
+    border: none;
+    border-radius: 10px; /* Untuk sudut yang lebih lembut */
+    transition: background-color 0.3s; /* Efek transisi untuk perubahan warna */
+}
+
+.options button:active {
+    background-color:brown; /* Warna yang berbeda saat tombol ditekan */
+}
+
+.luas-persegi {
+    background-color: brown;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%; /* Agar background menutupi seluruh lebar layar */
+}
+
+.luas-persegi .big-text {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+
+}
+.persegi {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.rumus-text {
+    color: #333; /* Warna teks sesuai preferensi Anda */
+    font-size: 16px; /* Ukuran font sesuai preferensi Anda */
+    margin-top: 5px; }
+
+    .Keliling-Persegi {
+        background-color: brown;
+        padding: 10px;
+        margin-top: 20px;
+        width: 100%; /* Agar background menutupi seluruh lebar layar */
+    }
+    .Keliling-Persegi .big-text {
+        margin: 0;
+        color: white;
+        font-size: 24px;
+    }
+    
